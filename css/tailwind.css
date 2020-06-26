@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+  @apply uppercase font-semibold py-4 px-12 rounded;
+}
+
+.btn:focus {
+  @apply outline-none shadow-outline;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+
+/* Form Input */
+
+.form-input {
+  @apply block w-full p-3 appearance-none bg-white border border-gray-300;
+}
+
+.form-input:focus {
+  @apply outline-none shadow-outline;
+}
+
+.form-input:hover {
+  @apply border-gray-400;
+}
+
+@tailwind utilities;
